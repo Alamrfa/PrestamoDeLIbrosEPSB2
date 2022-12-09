@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="EstiloDePagina.css">
+    <title>prueba de formulario</title>
+</head>
+<body style="background-color:#616c6e;">
+    <center><h1>Formulario Prestamo De Libros Para Los Alumnos</h1></center>
+    <center><img class="ImagenCss" src="LogoEscuela.png" width="200" height="200"></center>
+    <center><h3>Escuela Primaria Simón Bolivar 2</h3></center>
+    <br>
+    <center><form id="TransferirFormulario">
+        <label for="FechaPrestamo"> fecha de prestamo de libros:</label> 
+        <input type="text" id="FechaPrestamo" name="FechaPrestamo">   
+        <br>
+        <br>
+        <label for="NombreLibro">nombre del libro:</label> 
+        <input type="text" id="NombreLibro" name="NombreLibro"> 
+        <br>
+        <br>
+        <label for="CodigoLibro">codigo el libro:</label> 
+        <input type="text" id="CodigoLibro" name="CodigoLibro">
+        <br>
+        <br>
+        <label for="Fechalibro">fecha de entrega del libro:</label> 
+        <input type="text" id="FechaLibro" name="FechaLibro"> 
+        <br>
+        <br>
+        <label for="NombreAlumno">nombre del alumno:</label> 
+        <input type="text" id="NombreAlumno" name="NombreAlumno">
+        <br>
+        <br>
+        <label for="GrupYGradAlumn">grupo y grado de alumno;</label>
+        <input type="text" id="GrupYGradAlumn" name="GrupYGradAlumn">
+        <br>
+        <br>
+        <button>guardar prestamo</button> 
+    </form></center> 
+    <br>
+    <br>
+    <center><table id="PrestamoTable">
+        <thead>
+            <th>fecha de prestamo de libros</th>
+            <th>nombre del libro</th>
+            <th>codigo del libro</th>
+            <th>fecha de entrega del libro</th>
+            <th>Nombre del alumno</th>
+            <th>grupo y grado del alumno</th>
+        </thead>
+        <tbody>
+            
+        </tbody>
+    </table></center>
+    <script src="index.js"></script>
+</body>
+</html>

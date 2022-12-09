@@ -1,0 +1,34 @@
+input {
+    border-color: #55c5ba;
+    border-radius: 15px;
+    background-color: #616c6e;
+}
+h1 {
+    color: aquamarine;
+}
+h3 {
+    color: aquamarine;
+}
+label {
+    color: aliceblue; 
+}
+button {
+    background-color: #79acd6;
+    border-bottom: #003a69;
+}
+th {
+    border-color: #003a69;
+    background-color: #2ee4a7 ;
+    font-family: 'Courier New', Courier, monospace;
+}
+td {
+    background-color: aquamarine;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.ImagenCss {
+    border-radius: 60px;
+}
+.PrestamoTable {
+    border: 5px;
+    border-color: #003a69;
+}
